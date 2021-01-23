@@ -22,7 +22,7 @@ const ValidarJwt =(req, res, next)=>{
 
 
         
-    next();
+        next();
     } catch (error) {
         return res.status(401).json({
             ok:false,
